@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="rabbit-logo-isolated-white-background-rabbit-logo-isolated-white-background-rabbit-icon-trendy-design-style-182527271.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="rabbit-logo-isolated-white-background-rabbit-logo-isolated-white-background-rabbit-icon-trendy-design-style-182527271.jpg" />
+  </ItemGroup>
+
+</Project>
